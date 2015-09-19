@@ -11,7 +11,7 @@
  * @constructor
  * @param {OO.ui.OutlineSelectWidget} outline Outline to control
  * @param {Object} [config] Configuration options
- * @cfg {Object} [abilities] List of abilties
+ * @cfg {Object} [abilities] List of abilities
  * @cfg {boolean} [abilities.move=true] Allow moving movable items
  * @cfg {boolean} [abilities.remove=true] Allow removing removable items
  */
@@ -94,7 +94,7 @@ OO.mixinClass( OO.ui.OutlineControlsWidget, OO.ui.IconElement );
 /**
  * Set abilities.
  *
- * @param {Object} abilities List of abilties
+ * @param {Object} abilities List of abilities
  * @param {boolean} [abilities.move] Allow moving movable items
  * @param {boolean} [abilities.remove] Allow removing removable items
  */
